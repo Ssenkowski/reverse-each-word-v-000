@@ -6,4 +6,5 @@ def reverse_each_word(phrase)
     words = puts "#{word}"
     my_phrase << "#{words}"
   end
+  my_phrase.reverse
 end
