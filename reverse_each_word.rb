@@ -3,7 +3,7 @@ def reverse_each_word(phrase)
   phrase = "Hello there, and how are you?"
   phrase_2_array = phrase.split(" ")
   backwards_words.push(phrase_2_array)
-  phrase_2_array.each do |word|
+  backwards_words.each do |word|
     backwards_words = "#{word}".reverse
   end
   backwards_words
