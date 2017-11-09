@@ -1,4 +1,4 @@
 def reverse_each_word(phrase)
-  phrase = "Hi! Nice shirt!"
+  phrase = "Hello there, and how are you?"
   phrase.split(" ")
 end
