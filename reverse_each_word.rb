@@ -3,6 +3,6 @@ def reverse_each_word(phrase)
   phrase_2_array = phrase.split(" ")
   phrase_2_array.each do |word|
     words = puts "#{word}"
+    words.reverse
   end
-  words.reverse
 end
